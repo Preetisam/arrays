@@ -1,32 +1,11 @@
 (function(){
-    function rearrangeArray(arr, n);{
-        let rightPointer = n-1;
-        let leftPointer = 0;
-        let result=[];
 
-        arr.sort();
-        for(let i=0; i<=n-1; i++){
-            if(i % 2 == 0){
-            result[i] = arr[figthPointer];
-            rightPointer =rightPointer = 1;
-        }else{
-            result[i] = arr[figthPointer];
-            rightPointer =rightPointer = 1;
-
-        }
+    function get PostiveMEgativeArray(numbers){
+       
+        let postives = numbers.filter((item))=>item>-1
+        let negatives= number.filter((item))=>item<0
+        console.log("PostivesArray"+ postives);
+        console.log("NagativesArray"+ negatives);
     }
-    return result;
-    }
-
-    let arr= [3,1,2,2,5];
-    console.log()   
-
-
-
-
-
-
-
-
-
-})
+    console.log([-1,2,-91,0,-6,89,12,-2345])
+})();
