@@ -1,30 +1,16 @@
 (function(){
-    let numbers =[43,90,25,3,12,0,31];
-
-    let names = ["Arnab","Vijay","Jayesh","Aarav"];
-
-    // numbers.sort((a,b)=> a - b);  //asecnding
-    // numbers.sort((a,b)=> b - a);  //decending
-
-    numbers.sort(function(a,b){
-        console.log(" a= " + a + " b= " + b)
-        return a-b;
-
+    let numbers = [43, 90 ,25, 3,12,0, 31];
+    let names = ["Arnab", "Vijay","Jayesh", "Aarav"];
+    numbers.sort(function (a,b) {
+        return a - b;
     })
 
-
     names.sort();
+    console.log(numbers);
+    console.log(names);
 
-    console.log(numbers); 
-    
-    console.log(names); 
+    let otherNumbers = [23,1,45,6,0,99];
+    otherNumbers.reverse();
+    console.log(otherNumbers);
 
-
-
-
-
-
-
-
-
-})();
+})()
